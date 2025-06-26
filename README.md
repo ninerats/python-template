@@ -14,7 +14,7 @@ Starter repo for Python projects with:
 ### 🧱 Step 1: Clone your template repo
 
 ```bash
-git clone https://github.com/youruser/python-template.git my-new-project
+git clone https://github.com/ninerats/python-template.git my-new-project
 cd my-new-project
 ```
 
@@ -27,7 +27,7 @@ Or manually copy the folder if not using GitHub.
 If you cloned the repo and want a fresh Git history:
 
 ```bash
-rm -r .git
+rm -r .git -force
 git init
 git add .
 git commit -m "Initial commit from template"
